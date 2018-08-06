@@ -1,0 +1,33 @@
+body {
+    background-image: url(./qbkls.png);
+    background-size: auto, cover; 
+}
+
+.container {
+    background:white;
+}
+
+
+.navbar-brand {
+    background-color: teal;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bold;
+    color: white;
+}
+
+h4 {
+    background-color: teal;
+    color: white;
+    height:70px;
+    position:relative;
+    top:-100px;
+
+}
+
+h2 {
+    color: teal;
+    border-bottom: 2px lightgrey solid;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bold;
+}
+    

@@ -1,0 +1,25 @@
+
+
+input[type="text"],
+input[type="email"]
+{
+    width:650px;
+    color: #777777;
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+}
+
+textarea {
+    width:650px;
+    height: 200px;
+}
+
+label {
+    float:left;
+}
+
+.navbar-brand {
+    background-color: teal;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bold;
+    color: white;
+}
