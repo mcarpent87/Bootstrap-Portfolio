@@ -1,8 +1,11 @@
+
+/*Add background*/
 body {
     background-image: url(./qbkls.png);
     background-size: auto, cover; 
 }
 
+/*Add Styling to the container, footer, and headings*/
 .container {
     background:#ffffff;
     width:960px;
@@ -18,25 +21,29 @@ body {
     line-height: 60px;
     background-color: #4aaaa5;
     text-align:center;
+}    
+
+.align-middle {
+    position: relative;
+    top:15px;
 }
 
-
-.navbar-default {
-    background-color: #4aaaa5;
+h2 {
+    color: #4aaaa5;
+    border-bottom: 2px lightgrey solid;
     font-family: Georgia, 'Times New Roman', Times, serif;
     font-weight: bold;
-    font-size: 28px;
+    padding-top:10px;
+       
+}
+
+h4 {
+    background-color: #4aaaa5;
     color: white;
-    padding: 16px 10px 16px 10px
-}
-
-.navlink {
-    font-family: Arial, Helvetica, sans-serif'
-}
-
-ul {
-    font-family: Arial, Helvetica, sans-serif;
-
+    height:50px;
+    position:relative;
+    top:-100px;
+    text-align: center  
 }
 
 h5 {
@@ -52,22 +59,39 @@ h5 {
     font-weight: bold;
 }
 
-h4 {
+
+/*Add Styling to the default navbar*/
+.navbar-default {
     background-color: #4aaaa5;
-    color: white;
-    height:50px;
-    position:relative;
-    top:-100px;
-    text-align: center;
-
-}
-
-h2 {
-    color: #4aaaa5;
-    border-bottom: 2px lightgrey solid;
     font-family: Georgia, 'Times New Roman', Times, serif;
     font-weight: bold;
+    font-size: 28px;
+    color: white;
+    padding: 16px 10px 16px 10px
+}    
+
+.navbar{
+    padding: 0px 16px 0px 16px;
+}    
+
+.navlink {
+    font-family: Arial, Helvetica, sans-serif;
+    color: #777777;
+}    
+
+ul {
+    font-family: Arial, Helvetica, sans-serif;
+
+}    
+
+/*When the screen is xs (<576px), reduce image and h4 width to accomadate the small screen*/
+@media (max-width: 576px) {
+    .img-fluid {
+        width: 500px;
+    }
+
+    h4 {
+        width:500px;
+    }
     
 }
-
-

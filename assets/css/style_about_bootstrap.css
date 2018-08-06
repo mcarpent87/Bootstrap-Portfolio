@@ -1,41 +1,19 @@
+/*Add background pattern*/
 body {
     background-image: url(./qbkls.png);
     background-size: auto, cover; 
 }
 
-.container {
-    background:#ffffff;
-    position: relative;
-    top:20px;
-    width:960px;
-    border: .5px solid #dddddd;
-    padding-bottom: 50px;
+.bio-image {
+    padding-right:20px;
 }
 
-.footer {
-    position: absolute;
-    bottom:0px;
-    width: 100%;
-    height: 60px;
-    line-height: 60px;
-    background-color: #4aaaa5;
-    text-align:center;
-}
-
-
-.navbar-default {
-    background-color: #4aaaa5;
+/*Add Styling to the container, headings, footer, and text*/
+h2 {
+    color: #4aaaa5;
+    border-bottom: 2px lightgrey solid;
     font-family: Georgia, 'Times New Roman', Times, serif;
-    font-weight: bold;
-    font-size: 28px;
-    color: white;
-    padding: 16px 10px 16px 10px
-}
-
-
-ul {
-    font-family: Arial, Helvetica, sans-serif;
-
+    font-weight: bold;  
 }
 
 h5 {
@@ -50,21 +28,60 @@ h5 {
     font-family: Arial, Helvetica, sans-serif;
     font-weight: bold;
 }
-
-
-
-h2 {
-    color: #4aaaa5;
-    border-bottom: 2px lightgrey solid;
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    font-weight: bold;
-    
-}
-
 p {
     font-family: Arial, Helvetica, sans-serif;
     font-size: 16px;
     text-align: left;
+    color:#777777;
+}
+.container {
+    background:#ffffff;
+    position: relative;
+    top:20px;
+    width:960px;
+    border: .5px solid #dddddd;
+    padding-bottom: 50px;
+}
+
+/*Add Styling to the footer*/
+.footer {
+    position: absolute;
+    bottom:0;
+    width: 100%;
+    height: 60px;
+    line-height: 60px;
+    background-color: #4aaaa5;
+    text-align:center;
+}
+
+.align-middle {
+    position: relative;
+    top:15px;
+}
 
 
+/*Add Styling to the default navbar*/
+.navbar-default {
+    background-color: #4aaaa5;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bold;
+    font-size: 28px;
+    color: white;
+    padding: 16px 10px 16px 10px
+}
+
+.navbar{
+    padding: 0px 16px 0px 16px;
+}
+
+ul {
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+
+@media (max-width: 980px) {
+    .footer {
+        position: static;
+    }
 }

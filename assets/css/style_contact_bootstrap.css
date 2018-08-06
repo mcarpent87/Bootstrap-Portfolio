@@ -12,38 +12,33 @@ body {
     padding-bottom: 50px;
 }
 
-.footer {
-    position: absolute;
-    bottom:0px;
-    width: 100%;
-    height: 60px;
-    line-height: 60px;
-    background-color: #4aaaa5;
-    text-align:center;
-}
-
-
+/*Add Styling to the default navbar*/
 .navbar-default {
     background-color: #4aaaa5;
     font-family: Georgia, 'Times New Roman', Times, serif;
     font-weight: bold;
     font-size: 28px;
-    color: white;
+    color: #ffffff;
     padding: 16px 10px 16px 10px
 }
 
+.navbar{
+    padding: 0px 16px 0px 16px;
+    color: #777777;
+}
 
 ul {
     font-family: Arial, Helvetica, sans-serif;
 
 }
 
+/*Add Styling to h tags*/
 h5 {
     position:relative;
     top:10px;
     height:50px;
     font-family: Arial, Helvetica, sans-serif;
-    color: white;
+    color: #ffffff;
     background-color: #666666;
     margin:0px;
     font-size: 12px;
@@ -58,41 +53,60 @@ h2 {
     border-bottom: 2px lightgrey solid;
     font-family: Georgia, 'Times New Roman', Times, serif;
     font-weight: bold;
+    padding-top: 10px;
     
 }
 
-p {
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 16px;
-    text-align: left;
-}
 
-/*Contact Form on contact page*/
+/*Contact Form styling*/
 #name {
-    width:930px;
+    width:100%;
+    color:#777777;
 }
 
 #email {
-    width:930px;
+    width:100%;
+    color:#777777;
 }
 
 #subject {
     width:930px;
+    color:#777777;
 }
 textarea {
     width:960px;
     height:200px;
+    color:#777777;
 }
 label {
     font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
     color:#777777;
 }
 
+/*Change the color of the submit form button*/
 .btn-primary {
     background-color: #4aaaa5;
-    border-color: #444444;
+    border-color: #4aaaa5;
 }
 
 .form-control {
     font-family: Arial, Helvetica, sans-serif;
 }
+
+
+/*Add Styling to the footer*/
+.footer {
+    position: absolute;
+    bottom:0px;
+    width: 100%;
+    height: 60px;
+    line-height: 60px;
+    background-color: #4aaaa5;
+    text-align:center;
+}
+
+.align-middle {
+    position: relative;
+    top:15px;
+}
+
