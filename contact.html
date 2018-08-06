@@ -10,12 +10,13 @@
 </head>
 <body>
 
-    <nav class="navbar navbar-expand-sm bg-dark navbar-dark">
+    <nav class="navbar navbar-expand-sm bg-light navbar-light">
         <!-- Brand/logo -->
-        <a class="navbar-brand" href="#">McLean Carpenter</a>
+        <a class="navbar-default" href="#">McLean Carpenter</a>
         
         <!-- Links -->
-        <ul class="navbar-nav">
+    
+        <ul class="navbar-nav ml-auto">
           <li class="nav-item">
             <a class="nav-link" href="index.html">About</a>
           </li>
@@ -26,25 +27,29 @@
             <a class="nav-link" href="contact.html">Contact</a>
           </li>
         </ul>
-      </nav>
+    
+    </nav>
   
-<div class="container">
-  <h2>Contact</h2>
-  <form action="/action_page.php">
-    <label for="name">Name</label>
-    <input type="text" id="name" name="name" placeholder="John Smith">
-    <br>
-    <br>
-    <label for="email">Email</label>
-    <input type="text" id="email" name="email" placeholder="example@gmail.com">
-    <br>
-    <br>
-    <label for="Message">Subject</label>
-    <textarea id="subject" name="subject" placeholder=""></textarea>
-    <input type="submit" value="Submit">
-  </form>
-  
-</div>
+    <div class="container">
+        <h2>Contact</h2>
+        <form action="/action_page.php">
+          <div class="form-group">
+            <label for="name">Name</label>
+            <input type="name" class="form-control" id="name" placeholder="John Smith" name="name">
+          </div>
+          <div class="form-group">
+              <label for="email">Email:</label>
+              <input type="email" class="form-control" id="email" placeholder="example@gmail.com" name="email">
+            </div>
+          <div class="form-group row">
+            <div class ="col-12">
+              <label for="exampleFormControlTextarea1">Subject</label>
+              <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+            </div>
+          </div>
+          <button type="submit" class="btn btn-primary">Submit</button>
+        </form>
+      </div>
 
 </body>
 </html>

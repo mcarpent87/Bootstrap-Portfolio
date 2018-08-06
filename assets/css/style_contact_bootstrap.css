@@ -1,25 +1,104 @@
-
-
-input[type="text"],
-input[type="email"]
-{
-    width:650px;
-    color: #777777;
-    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+body {
+    background-image: url(./qbkls.png);
+    background-size: auto, cover; 
 }
 
-textarea {
-    width:650px;
-    height: 200px;
+.container {
+    background:#ffffff;
+    position: relative;
+    top:20px;
+    width:960px;
+    border: .5px solid #dddddd;
+    padding-bottom: 50px;
 }
 
-label {
-    float:left;
+.footer {
+    position: absolute;
+    bottom:0px;
+    width: 100%;
+    height: 60px;
+    line-height: 60px;
+    background-color: #4aaaa5;
+    text-align:center;
 }
 
-.navbar-brand {
-    background-color: teal;
+
+.navbar-default {
+    background-color: #4aaaa5;
     font-family: Georgia, 'Times New Roman', Times, serif;
     font-weight: bold;
+    font-size: 28px;
     color: white;
+    padding: 16px 10px 16px 10px
 }
+
+
+ul {
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+h5 {
+    position:relative;
+    top:10px;
+    height:50px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    background-color: #666666;
+    margin:0px;
+    font-size: 12px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
+
+
+
+h2 {
+    color: #4aaaa5;
+    border-bottom: 2px lightgrey solid;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bold;
+    
+}
+
+p {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    text-align: left;
+}
+
+/*Contact Form on contact page*/
+#name {
+    width:930px;
+}
+
+#email {
+    width:930px;
+}
+
+#subject {
+    width:930px;
+}
+textarea {
+    width:960px;
+    height:200px;
+}
+label {
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    color:#777777;
+}
+
+input[type="submit"] {
+    background-color:#4aaaa5; /* Teal */
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    position:relative;
+    top:20px;
+
+}
+
